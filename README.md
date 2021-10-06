@@ -15,18 +15,18 @@ It's also worth noting that after the BLE device disconnects the ESP32 is reboot
 
 See my other repositories for a UDP streaming version and a LoraWan version.
 
-Also standard disclaimer: Whilst this does touch on medical applications it comes with no warranty. It is intended for educational purposes only!
+**Also standard disclaimer: Whilst this does touch on medical applications it comes with no warranty. It is intended for educational purposes only!**
 
 Build:
 * Requires the Time library available from: https://github.com/PaulStoffregen/Time
 * See the notes in the comments at the top of the code regarding the partition scheme
 
 Usage:
-Simply upload the code then use the PC-60FW as normal (it should connect automatically).
-If using on an Olimex ESP32-Gateway bord then to view the results just go to the IP address assigned to the device by DHCP in your web browser.
+* Simply upload the code then use the PC-60FW as normal (it should connect automatically).
+* If using on an Olimex ESP32-Gateway bord then to view the results just go to the IP address assigned to the device by DHCP in your web browser.
 
 TODO:
-The graph displayed isn't a proper time series scatter graph (i.e. the distance along the X-axis isn't determined by the time elapsed).
-Support for multiple Oximeters logging to the same ESP32
-Auto-refreshing of the graph
+* The graph displayed isn't a proper time series scatter graph (i.e. the distance along the X-axis isn't determined by the time elapsed).
+* Support for multiple Oximeters logging to the same ESP32
+* Auto-refreshing of the graph
 
